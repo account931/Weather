@@ -15,7 +15,7 @@
 <!--START  Variant  3 Json  for  16  days  WORKING!!!!!!!!!!!!!------------------------------------------------------------------------------->
 <?php
 //This  is   working-  fetching  just  JSON FORMAT***************************************************
-echo htmlspecialchars(file_get_contents('http://api.openweathermap.org/data/2.5/forecast/daily?q=Kyiv&mode=json&units=metric&cnt=7&appid=2de143494c0b295cca9337e1e96b00e0')); 
+echo htmlspecialchars(file_get_contents('http://api.openweathermap.org/data/2.5/forecast/daily?q=Kyiv&mode=json&units=metric&cnt=7&APPID=42b614437754a4ec7c704604e2a3f97f')); 
 ?>
 
 
@@ -27,7 +27,7 @@ echo htmlspecialchars(file_get_contents('http://api.openweathermap.org/data/2.5/
 <div id="weather3"></div>
 
 <script>
-var data_url="http://api.openweathermap.org/data/2.5/forecast/daily?q=Kyiv&mode=json&units=metric&cnt=7&appid=2de143494c0b295cca9337e1e96b00e0";
+var data_url="http://api.openweathermap.org/data/2.5/forecast/daily?q=Kyiv&mode=json&units=metric&cnt=7&APPID=42b614437754a4ec7c704604e2a3f97f";
 
 //function to pull information out of the json file and stick it into an HTML element
 getWeather(function (data) {
